@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="81" viewBox="0 0 65 81" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="a" width="181%" height="177.8%" x="-40.5%" y="-29.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.238507699 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <ellipse id="c" cx="31.5" cy="30.5" rx="31.5" ry="30.5"/>
+    <filter id="b" width="123.8%" height="124.6%" x="-11.9%" y="-9%" filterUnits="objectBoundingBox">
+      <feMorphology radius=".5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feMorphology radius="1" in="SourceAlpha" result="shadowInner"/>
+      <feOffset dy="2" in="shadowInner" result="shadowInner"/>
+      <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.721568627 0 0 0 0 0.91372549 0 0 0 0 0.525490196 0 0 0 1 0" in="shadowBlurOuter1"/>
+    </filter>
+    <linearGradient id="d" x1="64.734%" x2="64.734%" y1="100%" y2="0%">
+      <stop stop-color="#23AE73" offset="0%"/>
+      <stop stop-color="#EFFFF5" offset="100%"/>
+    </linearGradient>
+    <linearGradient id="e" x1="64.734%" x2="64.734%" y1="98.268%" y2=".823%">
+      <stop stop-color="#389955" offset="0%"/>
+      <stop stop-color="#64F09B" offset="100%"/>
+    </linearGradient>
+    <path id="g" d="M31.5,19 C34.94553,19 37.8902121,20.2219429 40.3341346,22.6658654 C42.7780571,25.1097879 44,28.05447 44,31.5 C44,34.94553 42.7780571,37.8902121 40.3341346,40.3341346 C37.8902121,42.7780571 34.94553,44 31.5,44 C28.05447,44 25.1097879,42.7780571 22.6658654,40.3341346 C20.2219429,37.8902121 19,34.94553 19,31.5 C19,28.05447 20.2219429,25.1097879 22.6658654,22.6658654 C25.1097879,20.2219429 28.05447,19 31.5,19 Z M32,26.4761905 L32,31 L37,31 C36.9555553,29.174594 36.7111133,27.507944 36.2666667,26 C35.1111053,26.2380964 33.6888973,26.396825 32,26.4761905 Z M32,25 C33.6444527,24.9259256 34.9777727,24.7777789 36,24.5555556 C35.5555533,23.29629 34.9666703,22.2685225 34.2333333,21.4722222 C33.4999963,20.6759219 32.7555593,20.1851861 32,20 L32,25 Z M31,20 C29.399992,20.333335 28.066672,21.8518383 27,24.5555556 C28.066672,24.7777789 29.399992,24.9259256 31,25 L31,20 Z M31,26.4761905 C29.2894651,26.396825 27.8640408,26.2380964 26.7236842,26 C26.2850855,27.507944 26.0438599,29.174594 26,31 L31,31 L31,26.4761905 Z M25.3529412,31 C25.4313729,28.8111985 25.6470571,26.9941075 26,25.5486726 C24.8627394,25.2182874 23.7058882,24.7020684 22.5294118,24 C20.9607765,25.9823108 20.1176476,28.3156208 20,31 L25.3529412,31 Z M25.3529412,32 L20,32 C20.1176476,34.6843792 20.9607765,37.0176892 22.5294118,39 C23.8627518,38.2566335 25.0196029,37.7404144 26,37.4513274 C25.6470571,36.0058925 25.4313729,34.1888015 25.3529412,32 Z M26,32 C26.0438599,33.825406 26.2850855,35.492056 26.7236842,37 C28.0833401,36.7222208 29.5087645,36.5436512 31,36.4642857 L31,32 L26,32 Z M31,38 C29.399992,38.0740744 28.066672,38.2222211 27,38.4444444 C28.066672,41.1481617 29.399992,42.666665 31,43 L31,38 Z M32,43 C32.7555593,42.8148139 33.4999963,42.3240781 34.2333333,41.5277778 C34.9666703,40.7314775 35.5555533,39.70371 36,38.4444444 C34.9777727,38.2222211 33.6444527,38.0740744 32,38 L32,43 Z M32,36.4642857 C33.4222293,36.5039685 34.8444373,36.6825381 36.2666667,37 C36.7111133,35.492056 36.9555553,33.825406 37,32 L32,32 L32,36.4642857 Z M37.6990291,32 C37.6213588,34.0236089 37.3883515,35.8406999 37,37.4513274 C38.0485489,37.7817126 39.2135858,38.2979316 40.4951456,39 C42.0485515,37.0176892 42.8834946,34.6843792 43,32 L37.6990291,32 Z M37.6470588,31 L43,31 C42.8823524,28.3156208 42.0392235,25.9823108 40.4705882,24 C39.1372482,24.7433665 37.9803971,25.2595856 37,25.5486726 C37.3529429,26.9941075 37.5686271,28.8111985 37.6470588,31 Z M39,22.8108108 C37.5347912,21.3693622 35.8681412,20.4324346 34,20 C34.8424951,20.8648692 35.5567736,22.1981892 36.1428571,24 C37.1685033,23.6756741 38.1208747,23.2792816 39,22.8108108 Z M28,20 C26.0585984,20.4383584 24.3919484,21.3881205 23,22.8493151 C23.5860835,23.1780838 24.5384549,23.5616416 25.8571429,24 C26.4065962,22.2465666 27.1208747,20.9132466 28,20 Z M23,39.1891892 C24.4652088,40.6306378 26.1318588,41.5675654 28,42 C27.0842445,41.0630584 26.3516511,39.7297384 25.8021978,38 C24.7399214,38.3603622 23.8058648,38.7567546 23,39.1891892 Z M34,42 C35.8681412,41.5675654 37.5347912,40.6306378 39,39.1891892 C38.1208747,38.7207184 37.1685033,38.3243259 36.1428571,38 C35.5567736,39.8018108 34.8424951,41.1351308 34,42 Z"/>
+    <filter id="f" width="160%" height="160%" x="-30%" y="-22%" filterUnits="objectBoundingBox">
+      <feMorphology radius=".5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" in="shadowBlurOuter1"/>
+    </filter>
+    <linearGradient id="h" x1="31.325%" x2="97.962%" y1="45.744%" y2="50%">
+      <stop stop-color="#5ABF84" offset="0%"/>
+      <stop stop-color="#EBF1FD" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <g filter="url(#a)">
+      <g opacity=".507">
+        <use fill="black" filter="url(#b)" xlink:href="#c"/>
+        <use stroke="#5EE590" xlink:href="#c"/>
+      </g>
+      <ellipse cx="31" cy="33" fill="url(#d)" opacity=".477" rx="31" ry="30"/>
+      <ellipse cx="32" cy="31.5" fill="url(#e)" rx="27" ry="26.5"/>
+      <g opacity=".889">
+        <use fill="black" filter="url(#f)" xlink:href="#g"/>
+        <use fill="#FFFFFF" xlink:href="#g"/>
+      </g>
+    </g>
+    <rect width="58" height="3" y="77" fill="url(#h)" rx="1.5"/>
+  </g>
+</svg>

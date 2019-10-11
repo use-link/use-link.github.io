@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="81" viewBox="0 0 65 81" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <ellipse id="b" cx="31.5" cy="30.5" rx="31.5" ry="30.5"/>
+    <filter id="a" width="123.8%" height="124.6%" x="-11.9%" y="-9%" filterUnits="objectBoundingBox">
+      <feMorphology radius=".5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feMorphology radius="1" in="SourceAlpha" result="shadowInner"/>
+      <feOffset dy="2" in="shadowInner" result="shadowInner"/>
+      <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.031372549 0 0 0 0 0.478431373 0 0 0 0 1 0 0 0 1 0" in="shadowBlurOuter1"/>
+    </filter>
+    <linearGradient id="c" x1="50%" x2="50%" y1="100%" y2="13.872%">
+      <stop stop-color="#2A3B86" offset="0%"/>
+      <stop stop-color="#53A0FD" offset="100%"/>
+    </linearGradient>
+    <linearGradient id="f" x1="50%" x2="50%" y1="20.152%" y2="100%">
+      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#FFFFFF" stop-opacity=".772" offset="30.889%"/>
+      <stop stop-color="#FFFFFF" stop-opacity=".438" offset="100%"/>
+    </linearGradient>
+    <path id="e" d="M40,35.1930804 C40,31.6964286 36.4298333,30.5212054 33.2716088,29.4910714 C30.8342835,28.6930804 28.7402433,28.0111607 28.7402433,26.4732143 C28.7402433,25.1529018 30.2506985,24.2388393 32.4305599,24.2388393 C35.0051994,24.2388393 37.0820753,25.7912946 37.0992395,25.8058036 C37.2365536,25.8928571 37.391032,25.9363839 37.5626746,25.9073661 C37.7343173,25.8928571 37.8716314,25.8058036 37.9574527,25.6752232 L39.347758,23.5569196 C39.4679078,23.3828125 39.4335793,23.1651786 39.2619367,23.0055804 C39.1932796,22.9475446 37.3395392,21.3515625 33.8551938,21.0178571 L33.8551938,18.4642857 C33.8551938,18.203125 33.6148941,18 33.3059374,18 L30.9887618,18 C30.6969694,18 30.4395054,18.203125 30.4395054,18.4642857 L30.4395054,21.0758929 C26.8521744,21.65625 24.3805205,23.8616071 24.3805205,26.53125 C24.3805205,30.1729911 28.2253155,31.4787946 31.3148828,32.5089286 C33.6320584,33.2924107 35.6574414,33.9743304 35.6574414,35.3671875 C35.6574414,37.0066964 33.8380295,37.7611607 32.1559317,37.7611607 C29.1178571,37.7611607 26.7148603,35.8169643 26.6805318,35.8024554 C26.5775462,35.7008929 26.4230678,35.6573661 26.2685894,35.671875 C26.1141111,35.6863839 25.9596327,35.7444196 25.8738114,35.8459821 L24.1058923,37.8046875 C23.9514139,37.9787946 23.9685782,38.2254464 24.1402208,38.3995536 C24.2260421,38.4866071 26.4230678,40.5178571 30.4395054,40.9966518 L30.4395054,43.5357143 C30.4395054,43.796875 30.6969694,44 30.9887618,44 L33.3059374,44 C33.6148941,44 33.8551938,43.796875 33.8551938,43.5357143 L33.8551938,40.9966518 C37.4940176,40.4888393 40,38.1529018 40,35.1930804 Z"/>
+    <filter id="d" width="187.5%" height="153.8%" x="-43.8%" y="-19.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0" in="shadowBlurOuter1"/>
+    </filter>
+    <linearGradient id="g" x1="31.325%" x2="97.962%" y1="45.744%" y2="50%">
+      <stop stop-color="#3452A1" offset="0%"/>
+      <stop stop-color="#EBF1FD" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <g opacity=".507">
+      <use fill="black" filter="url(#a)" xlink:href="#b"/>
+      <use stroke="#216CFF" xlink:href="#b"/>
+    </g>
+    <ellipse cx="31" cy="33" fill="url(#c)" opacity=".62" rx="31" ry="30"/>
+    <ellipse cx="32" cy="31.5" fill="url(#c)" rx="27" ry="26.5"/>
+    <g opacity=".949">
+      <use fill="black" filter="url(#d)" xlink:href="#e"/>
+      <use fill="url(#f)" xlink:href="#e"/>
+    </g>
+    <rect width="58" height="3" y="77" fill="url(#g)" rx="1.5"/>
+  </g>
+</svg>
